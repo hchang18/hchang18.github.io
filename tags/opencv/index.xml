@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>opencv on Haeyoon&#39;s Blog</title>
+    <link>https://hchang18.github.io/tags/opencv/</link>
+    <description>Recent content in opencv on Haeyoon&#39;s Blog</description>
+    <image>
+      <title>Haeyoon&#39;s Blog</title>
+      <url>https://hchang18.github.io/papermod-cover.png</url>
+      <link>https://hchang18.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hchang18.github.io/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to smooth a color image</title>
+      <link>https://hchang18.github.io/posts/2023-03-01-how-to-smooth-image/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://hchang18.github.io/posts/2023-03-01-how-to-smooth-image/</guid>
+      <description>Summary use cv2.imread() to read an image file and cv2.cvtColor() to convert the image from one color space (e.g. BGR to RGB). select the filter (e.g. Gaussian Kernel function cv2.GaussianBlur() or any custom filter cv2.blur()) and apply to the image for smoothing effect. Getting Started with OpenCV # import libraries import cv2 import numpy as np import matplotlib.pyplot as plt %matplotlib inline # mount the google drive to get my image from google.</description>
+    </item>
+    
+  </channel>
+</rss>
