@@ -12,12 +12,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hchang18.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Blur Color Image</title>
+      <title>How to Blur and Sharpen Color Image</title>
       <link>https://hchang18.github.io/posts/2023-03-01-how-to-smooth-image/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://hchang18.github.io/posts/2023-03-01-how-to-smooth-image/</guid>
-      <description>Summary Use cv2.imread() to read an image file and cv2.cvtColor() to convert the image from one color space (e.g. BGR to RGB). Select the filter (e.g. Gaussian Kernel function cv2.GaussianBlur() or any custom filter cv2.blur()) and apply to the image for smoothing effect. The bigger the kernel size, the blurrier an image will be. Getting Started with OpenCV # import libraries import cv2 import numpy as np import matplotlib.pyplot as plt %matplotlib inline # mount the google drive to get my image from google.</description>
+      <description>Summary Read an image file and convert the image from one color space (e.g. BGR to RGB). Select the filter (e.g. Gaussian Kernel function or any custom filter) and apply to the image for smoothing effect. The bigger the kernel size, the blurrier an image will be. To sharpen the image, get the difference between original and blurred images and add back that difference with sharpened ratio of your choice. Getting Started with OpenCV # import libraries import cv2 import numpy as np import matplotlib.</description>
     </item>
     
   </channel>
