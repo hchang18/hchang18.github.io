@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>masking on Haeyoon&#39;s Blog</title>
+    <link>https://hchang18.github.io/tags/masking/</link>
+    <description>Recent content in masking on Haeyoon&#39;s Blog</description>
+    <image>
+      <title>Haeyoon&#39;s Blog</title>
+      <url>https://hchang18.github.io/papermod-cover.png</url>
+      <link>https://hchang18.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 07 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hchang18.github.io/tags/masking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Directional Derivatives</title>
+      <link>https://hchang18.github.io/posts/2023-03-07-directional-derivative/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://hchang18.github.io/posts/2023-03-07-directional-derivative/</guid>
+      <description>Summary xxx
+Sobel Derivative and Custom Filter Sobel derivative calculates the derivative in x and y directions. Thus, I decided to create customized 2D filter to calculate the derivative in the direction of 45 and -45 degree angles, respectively.
+The customized kernel for 45 is:
+$$ \begin{bmatrix} 0 &amp;amp; 1 &amp;amp; 2 \\ -1 &amp;amp; 0 &amp;amp; 1 \\ -2 &amp;amp; -1 &amp;amp; 0 \end{bmatrix} $$ The kernel for -45 degrees is:</description>
+    </item>
+    
+  </channel>
+</rss>

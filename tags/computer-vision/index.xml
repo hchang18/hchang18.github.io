@@ -10,13 +10,25 @@
       <link>https://hchang18.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hchang18.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hchang18.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Directional Derivatives</title>
+      <link>https://hchang18.github.io/posts/2023-03-07-directional-derivative/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://hchang18.github.io/posts/2023-03-07-directional-derivative/</guid>
+      <description>Summary xxx
+Sobel Derivative and Custom Filter Sobel derivative calculates the derivative in x and y directions. Thus, I decided to create customized 2D filter to calculate the derivative in the direction of 45 and -45 degree angles, respectively.
+The customized kernel for 45 is:
+$$ \begin{bmatrix} 0 &amp;amp; 1 &amp;amp; 2 \\ -1 &amp;amp; 0 &amp;amp; 1 \\ -2 &amp;amp; -1 &amp;amp; 0 \end{bmatrix} $$ The kernel for -45 degrees is:</description>
+    </item>
+    
     <item>
       <title>How to Blur and Sharpen Color Image</title>
-      <link>https://hchang18.github.io/posts/2023-03-01-how-to-smooth-image/</link>
+      <link>https://hchang18.github.io/posts/2023-03-01-how-to-smooth-and-sharpen-image/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hchang18.github.io/posts/2023-03-01-how-to-smooth-image/</guid>
+      <guid>https://hchang18.github.io/posts/2023-03-01-how-to-smooth-and-sharpen-image/</guid>
       <description>Summary Read an image file and convert the image from one color space (e.g. BGR to RGB). Select the filter (e.g. Gaussian Kernel function or any custom filter) and apply to the image for smoothing effect. The bigger the kernel size, the blurrier an image will be. To sharpen the image, get the difference between original and blurred images and add back that difference with sharpened ratio of your choice. Getting Started with OpenCV # import libraries import cv2 import numpy as np import matplotlib.</description>
     </item>
     
