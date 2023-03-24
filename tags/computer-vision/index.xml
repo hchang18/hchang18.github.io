@@ -10,16 +10,35 @@
       <link>https://hchang18.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hchang18.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hchang18.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Directional Derivatives</title>
+      <title>Histogram Equalization</title>
+      <link>https://hchang18.github.io/posts/2023-03-14-histogram-equalizer/</link>
+      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://hchang18.github.io/posts/2023-03-14-histogram-equalizer/</guid>
+      <description>Image Histogram and Histogram Equalization Image historgram represents the intensity distribution of an image. X-axis stands for intensity, Y-axis for the number of pixels. Histogram equalization is a method in image processing of contrast adjustment using the image&amp;rsquo;s histogram 1. It stretches out the intensity range of the image.
+Use HSV Hue saturation value (HSV) color scale is used to process the intensity separately and to focus on value channel. Thus, I changed the image from BGR to HSV first, and equalized the histogram on value channel only, and finally converted the image from HSV to RGB.</description>
+    </item>
+    
+    <item>
+      <title>Perspective Transformation</title>
+      <link>https://hchang18.github.io/posts/2023-03-14-perspective-transform/</link>
+      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://hchang18.github.io/posts/2023-03-14-perspective-transform/</guid>
+      <description>Perspective Transformation This is a photo of a paper on a table. Is there a way to make it look as if it was scanned, removing everything outside the paper? This is possible if we use prospective transformation that restores the image to a picture that is centered with the optical axis and does not contain any rotation, changes to aspect ratio, skew, or keystone distortion.
+The picture is the letter sized paper, and thus aspect ratio is 8 x 11.</description>
+    </item>
+    
+    <item>
+      <title>Directional Derivatives </title>
       <link>https://hchang18.github.io/posts/2023-03-07-directional-derivative/</link>
       <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://hchang18.github.io/posts/2023-03-07-directional-derivative/</guid>
-      <description>Summary xxx
-Sobel Derivative and Custom Filter Sobel derivative calculates the derivative in x and y directions. Thus, I decided to create customized 2D filter to calculate the derivative in the direction of 45 and -45 degree angles, respectively.
-The customized kernel for 45 is:
+      <description>Sobel Derivative and Custom Filter Sobel derivative calculates the derivative in x and y directions. Thus, I decided to create customized 2D filter to calculate the derivative in the direction of 45 and -45 degree angles, respectively.
+The customized kernel for 45 degree is:
 $$ \begin{bmatrix} 0 &amp;amp; 1 &amp;amp; 2 \\ -1 &amp;amp; 0 &amp;amp; 1 \\ -2 &amp;amp; -1 &amp;amp; 0 \end{bmatrix} $$ The kernel for -45 degrees is:</description>
     </item>
     

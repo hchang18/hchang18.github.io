@@ -165,17 +165,42 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Directional Derivatives
+    <h2>Histogram Equalization
     </h2>
   </header>
   <div class="entry-content">
-    <p>Summary xxx
-Sobel Derivative and Custom Filter Sobel derivative calculates the derivative in x and y directions. Thus, I decided to create customized 2D filter to calculate the derivative in the direction of 45 and -45 degree angles, respectively.
-The customized kernel for 45 is:
+    <p>Image Histogram and Histogram Equalization Image historgram represents the intensity distribution of an image. X-axis stands for intensity, Y-axis for the number of pixels. Histogram equalization is a method in image processing of contrast adjustment using the image’s histogram 1. It stretches out the intensity range of the image.
+Use HSV Hue saturation value (HSV) color scale is used to process the intensity separately and to focus on value channel. Thus, I changed the image from BGR to HSV first, and equalized the histogram on value channel only, and finally converted the image from HSV to RGB....</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-03-14 00:00:00 +0000 UTC'>March 14, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Haeyoon</footer>
+  <a class="entry-link" aria-label="post link to Histogram Equalization" href="https://hchang18.github.io/posts/2023-03-14-histogram-equalizer/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Perspective Transformation
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Perspective Transformation This is a photo of a paper on a table. Is there a way to make it look as if it was scanned, removing everything outside the paper? This is possible if we use prospective transformation that restores the image to a picture that is centered with the optical axis and does not contain any rotation, changes to aspect ratio, skew, or keystone distortion.
+The picture is the letter sized paper, and thus aspect ratio is 8 x 11....</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-03-14 00:00:00 +0000 UTC'>March 14, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Haeyoon</footer>
+  <a class="entry-link" aria-label="post link to Perspective Transformation" href="https://hchang18.github.io/posts/2023-03-14-perspective-transform/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Directional Derivatives 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Sobel Derivative and Custom Filter Sobel derivative calculates the derivative in x and y directions. Thus, I decided to create customized 2D filter to calculate the derivative in the direction of 45 and -45 degree angles, respectively.
+The customized kernel for 45 degree is:
 $$ \begin{bmatrix} 0 &amp; 1 &amp; 2 \\ -1 &amp; 0 &amp; 1 \\ -2 &amp; -1 &amp; 0 \end{bmatrix} $$ The kernel for -45 degrees is:...</p>
   </div>
   <footer class="entry-footer"><span title='2023-03-07 00:00:00 +0000 UTC'>March 7, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Haeyoon</footer>
-  <a class="entry-link" aria-label="post link to Directional Derivatives" href="https://hchang18.github.io/posts/2023-03-07-directional-derivative/"></a>
+  <a class="entry-link" aria-label="post link to Directional Derivatives " href="https://hchang18.github.io/posts/2023-03-07-directional-derivative/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 

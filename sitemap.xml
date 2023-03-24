@@ -3,15 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://hchang18.github.io/tags/computer-vision/</loc>
-    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hchang18.github.io/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hchang18.github.io/posts/2023-03-14-histogram-equalizer/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hchang18.github.io/tags/image-processing/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hchang18.github.io/tags/opencv/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hchang18.github.io/posts/2023-03-14-perspective-transform/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hchang18.github.io/posts/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hchang18.github.io/tags/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hchang18.github.io/tags/convolution/</loc>
     <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hchang18.github.io/posts/2023-03-07-directional-derivative/</loc>
-    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hchang18.github.io/</loc>
     <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hchang18.github.io/tags/kernel/</loc>
@@ -20,25 +38,11 @@
     <loc>https://hchang18.github.io/tags/masking/</loc>
     <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hchang18.github.io/tags/opencv/</loc>
-    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hchang18.github.io/posts/</loc>
-    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hchang18.github.io/tags/</loc>
-    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hchang18.github.io/posts/2023-03-01-how-to-smooth-and-sharpen-image/</loc>
-    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hchang18.github.io/tags/image-processing/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hchang18.github.io/about/</loc>
     <lastmod>2023-02-26T16:25:41-08:00</lastmod>
-  </url><url>
-    <loc>https://hchang18.github.io/posts/2023-03-07-laplacian-pyramid/</loc>
   </url><url>
     <loc>https://hchang18.github.io/archives/</loc>
   </url><url>
